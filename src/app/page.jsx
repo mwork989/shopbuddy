@@ -1,9 +1,2 @@
-
-
-export default function LandingPage() {
-  return (
-    <div >
-       <h1> Next js Project Shop buddy</h1>
-    </div>
-  );
-}
+import { redirect } from 'next/navigation';
+export default function Root() { redirect('/en'); }
